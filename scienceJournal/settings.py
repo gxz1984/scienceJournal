@@ -93,4 +93,5 @@ DOWNLOAD_HANDLERS = {
     's3': None,
 }
 
-DOWNLOAD_DELAY = 1.5
+#delay 15 seconds
+DOWNLOAD_DELAY = 15

@@ -2,7 +2,6 @@ import scrapy
 from scienceJournal.items import SciencejournalItem
 import json
 
-
 class SciSpider(scrapy.spiders.Spider):
     name = "sci_journal"
     allowed_domains = ["http://www.sciencedirect.com/"]
